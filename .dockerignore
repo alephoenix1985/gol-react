@@ -1,0 +1,35 @@
+# .dockerignore
+
+# Node modules - these will be installed inside the container
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Next.js build output - this is generated inside the container
+.next
+
+# Git folder
+.git
+
+# Editor/IDE specific files
+.vscode
+.idea
+
+# Environment files that should not be in the image
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Any other large files or directories not needed for the build
+# e.g., large media assets, test reports, coverage reports if not needed in the image
+# coverage/
+# *.log

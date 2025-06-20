@@ -1,0 +1,60 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js build output
+/.next/
+/out/
+
+# Production build files
+/build
+
+# Static HTML exports
+# /out
+
+# Test results
+/coverage/
+/.nyc_output/
+
+# Local environment variables
+# Exclude all .env files and only commit .env.example if you have one.
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+# If you want to commit a template, use .env.example and un-ignore it:
+# !.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Next.js specific cache files
+.next/cache
+
+# Optional: Other files you might want to ignore
+# For example, if you have large asset files not meant for the repo
+# /public/large-assets/
